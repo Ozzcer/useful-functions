@@ -10,7 +10,7 @@ function createTableStructure(tableTitle) {
 
   table.appendChild(thead);
   table.appendChild(tbody);
-  theadRow.appendChild(theadRow);
+  thead.appendChild(theadRow);
 
   return table;
 }
